@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/css/sharedUI.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   
+    <title>JaredDotDev</title>
+</head>
+<i class="fa fa-cloud"></i>
+<style>
+    @keyframes moveRocket {
+    from {
+        transform: translateY(0); /* Initially facing right */
+    }
+    to {
+        transform: translateY(10px); /* Flips the rocket and moves right */
+    }
+}
+    .fa-cloud{
+    animation: moveRocket 1s infinite;
+    animation-direction: alternate-reverse;
+    position: absolute;
+    right: 265px;
+    color: lightcyan;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.fa-cloud:hover{
+    color: cyan;
+}
+@keyframes rotateAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1 {
+  animation: rotateAnimation 4s linear infinite;
+  font-size: 30px;
+}
+
+</style>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <p>Jared.DevBug <i class="fa fa-bug"></i></p>
+            
+        </div>
+        <ul>
+            <li class="nav--items"> <a href="index.html" style="color: lightcyan; text-decoration: none;"> Projects</a></li>
+            <li class="nav--items"> <a href="projects.html" style="color: lightcyan; text-decoration: none;"> Projects</a> </li>
+            <li class="nav--items" style="color: cyan;"> About</li>
+            <li class="nav--items"> Contacts</li>
+        </ul>
+    </div>
+
+    <section id="notice" style="display: flex; flex-direction: column; justify-content: center; align-items: center; margin-top: 20%;">
+        <h1>⚙️</h1>
+        <h2 style="color: white; text-align: center; line-height: 40px;">THIS WEB PAGE IS CURRENTLY UNDER DEVELOPMENT AND MAY NOT BE AVAILABLE AT THE MOMENT.</h2>
+    </section>
+</body>
+</html>
