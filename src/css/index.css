@@ -238,6 +238,9 @@ footer {
     padding-top: 10rem;
     justify-content: center;
   }
+  #hero {
+    margin: auto;
+  }
   #hero .image img {
     max-width: 320px;
     animation: none;
