@@ -14,7 +14,7 @@
   animation-direction: alternate-reverse;
   position: absolute;
   right: 460px;
-  color: lightcyan;
+  color: white;
   font-size: 20px;
   transition: 0.5s;
 } */
@@ -43,7 +43,7 @@
   animation-direction: alternate-reverse;
 }
 #hero .informations {
-  color: lightcyan;
+  color: white;
   margin: auto;
   font-family: "Poppins", sans-serif;
 }
@@ -63,7 +63,7 @@
   border: 0;
   padding: 10px;
   border-radius: 4px;
-  color: lightcyan;
+  color: white;
   transition: all 0.5s ease;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -80,11 +80,11 @@
   font-size: 20px;
 }
 #hero .informations #cv {
-  background-color: lightcyan;
+  background-color: white;
   color: black;
 }
 #hero .informations #connect:hover {
-  background-color: lightcyan;
+  background-color: white;
   color: black;
 }
 #hero .informations #cv:hover {
@@ -94,14 +94,14 @@
 #hero .socials {
   width: 350px;
   height: 100px;
-  color: lightcyan;
+  color: white;
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 20px;
 }
 #hero .socials .fab {
-  background-color: lightcyan;
+  background-color: white;
   padding: 10px;
   border-radius: 4px;
   font-size: 20px;
@@ -111,7 +111,7 @@
 }
 #hero .socials .fab:hover {
   background-color: blueviolet;
-  color: lightcyan;
+  color: white;
   transform: translateY(-4px);
 }
 #hero .iconss {
@@ -119,7 +119,7 @@
   gap: 6px;
 }
 #about .about-me {
-  color: lightcyan;
+  color: white;
 }
 #about .subtext {
   width: fit-content;
@@ -209,7 +209,7 @@ footer {
 .justInfo {
   display: flex;
   justify-content: space-around;
-  color: lightcyan;
+  color: white;
   height: max-content;
   padding-bottom: 10px;
   /* From https://css.glass */
@@ -254,7 +254,7 @@ footer {
   }
   #about {
     margin-top: 20%;
-    border-top: 1px solid lightcyan;
+    border-top: 1px solid white;
   }
   .socials {
     margin-left: 10%;
