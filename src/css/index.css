@@ -1,274 +1,279 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-@keyframes moveRocket {
-    from {
-        transform: translateY(0); /* Initially facing right */
-    }
-    to {
-        transform: translateY(10px); /* Flips the rocket and moves right */
-    }
-}
+/* @keyframes moveRocket {
+  from {
+    transform: translateY(0); /* Initially facing right */
+/* } */
+/* to {
+    transform: translateY(10px); /* Flips the rocket and moves right */
+/* }
+} */
 
-.fa-cloud{
-    animation: moveRocket 1s infinite;
-    animation-direction: alternate-reverse;
-    position: absolute;
-    right: 460px;
-    color: lightcyan;
-    font-size: 20px;
-    transition: 0.5s;
+/* .fa-cloud {
+  animation: moveRocket 1s infinite;
+  animation-direction: alternate-reverse;
+  position: absolute;
+  right: 460px;
+  color: lightcyan;
+  font-size: 20px;
+  transition: 0.5s;
+} */
+/* .fa-cloud:hover {
+  color: cyan;
+} */
+#hero .hero {
+  display: flex;
+  flex-direction: row;
+  height: 85vh;
+  justify-content: space-around;
+  align-items: center;
 }
-.fa-cloud:hover{
-    color: cyan;
-}
-
-#hero .hero{
-    display: flex;
-    flex-direction: row;
-    height: 85vh;
-    justify-content: space-around;
-    align-items: center;
-    
-}
-
 @keyframes moveImg {
-    from {
-        transform: translateY(0);
-    }
-    to{
-        transform: translateY(20px);
-    }
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(20px);
+  }
 }
-#hero .image img{
-    max-width: 500px;
-    border-radius: 50%;
-    animation: moveImg 2s infinite;
-    animation-direction: alternate-reverse;
+#hero .image img {
+  max-width: 500px;
+  border-radius: 50%;
+  animation: moveImg 2s infinite;
+  animation-direction: alternate-reverse;
 }
-
-#hero .informations{
-    color: lightcyan;
-    margin: auto;
-    font-family: "Poppins", sans-serif;
+#hero .informations {
+  color: lightcyan;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
 }
-#hero .informations span{
-    color: cyan;
+#hero .informations span {
+  color: blueviolet;
 }
-#hero .informations h3{
-    color: cyan;
-    font-size: 45px;
-    line-height: 0;
+#hero .informations h3 {
+  color: blueviolet;
+  font-size: 45px;
+  line-height: 0;
 }
-#hero .informations .subtext{
-    max-width: 70%;
+#hero .informations .subtext {
+  max-width: 70%;
 }
-#hero .informations button{
-    background-color: cyan;
-    border: 0;
-    padding: 10px;
-    border-radius: 4px;
-    color: black;
-    transition: all 0.5s ease;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    cursor: pointer;
+#hero .informations button {
+  background-color: blueviolet;
+  border: 0;
+  padding: 10px;
+  border-radius: 4px;
+  color: lightcyan;
+  transition: all 0.5s ease;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
 }
-#hero .informations button:hover{
-    transform: translateY(-5px);
+#hero .informations button:hover {
+  transform: translateY(-5px);
 }
-.informations .greet{
-    font-size: 20px;
-    line-height: 0;
+.informations .greet {
+  font-size: 20px;
+  line-height: 0;
 }
-.informations h5{
-    font-size: 20px;
+.informations h5 {
+  font-size: 20px;
 }
-#hero .informations #cv{
-    background-color: lightcyan;
+#hero .informations #cv {
+  background-color: lightcyan;
+  color: black;
 }
-#hero .informations #connect:hover{
-    background-color: lightcyan;
+#hero .informations #connect:hover {
+  background-color: lightcyan;
+  color: black;
 }
-#hero .informations #cv:hover{
-    background-color: cyan;
+#hero .informations #cv:hover {
+  background-color: blueviolet;
+  color: white;
 }
-#hero .socials{
-    width: 350px;
-    height: 100px;
-    color: lightcyan;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 20px;
+#hero .socials {
+  width: 350px;
+  height: 100px;
+  color: lightcyan;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
 }
-#hero .socials .fab{
-    background-color: lightcyan;
-    padding: 10px;
-    border-radius: 4px;
-    font-size: 20px;
-    color: black;
-    transition: all 0.5s ease;
-    cursor: pointer;
+#hero .socials .fab {
+  background-color: lightcyan;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 20px;
+  color: black;
+  transition: all 0.5s ease;
+  cursor: pointer;
 }
-#hero .socials .fab:hover{
-    background-color: cyan;
-    transform: translateY(-4px);
-    
+#hero .socials .fab:hover {
+  background-color: blueviolet;
+  color: lightcyan;
+  transform: translateY(-4px);
 }
-#hero .iconss{
-    display: flex;
-    gap: 6px;
+#hero .iconss {
+  display: flex;
+  gap: 6px;
 }
-#about .about-me{
-    color: lightcyan;
+#about .about-me {
+  color: lightcyan;
 }
-#about .subtext{
-    width: fit-content;
-    background-color: #171c21;
-    padding: 10px;
-    transition: 0.5s ease;
-    border-radius: 4px;
-    cursor:text;
+#about .subtext {
+  width: fit-content;
+  background-color: #171c21;
+  padding: 10px;
+  transition: 0.5s ease;
+  border-radius: 4px;
+  cursor: text;
 }
-#about .item{
-    padding: 10px;
-    width: max-content;
-    border-radius: 4px;
-    background-color: #16191c;
-    transition: all 0.5s ease;
-    cursor: pointer;
-    flex: 1 0 max-content;
-    
+#about .item {
+  padding: 10px;
+  width: max-content;
+  border-radius: 4px;
+  background-color: #16191c;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  flex: 1 0 max-content;
 }
-#about .item:hover{
-    background-color: #2a3138;
-    transform: translateY(-5px);
+#about .item:hover {
+  background-color: #2a3138;
+  transform: translateY(-5px);
 }
-#about #qoute:hover{
-    background-color: #2a3138;
+#about #qoute:hover {
+  background-color: #2a3138;
 }
-#about .about-me h4, h2{
-    color: cyan;
+#about .about-me h4,
+h2 {
+  color: blueviolet;
 }
-#about .subtext:hover{
-    background-color: #2a3138;
-    transform: translateY(-5px);
+#about .subtext:hover {
+  background-color: #2a3138;
+  transform: translateY(-5px);
 }
-#about .tool-box{
-    display: flex;
-    gap: 5px;
-    flex-wrap: wrap;
+#about .tool-box {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
 }
-#qoute{
-    text-align: center;
+#qoute {
+  text-align: center;
 }
 
 footer {
-    background-color: #16191c;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-  }
-  .footbar{
-    display: flex;
-    justify-content: space-around;
-  }
-  .bars ul li{
-    list-style-type: none;
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-    transition: 0.5s ease;
-    cursor: pointer;
-  }
+  background-color: #16191c;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+.footbar {
+  display: flex;
+  justify-content: space-around;
+}
+.bars ul li {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
 
-  .bars ul li:hover{
-    color: cyan;
-    transform: translateX(10px);
-  }
-  .bars ul{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    text-align: left;
-  }
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .container p {
-    margin: 0;
-  }
-  
-  #about  #qoute{
-    background-color: #16191c;
-    max-width: fit-content;
-  }
-  .justInfo{
-    display: flex;
+.bars ul li:hover {
+  color: cyan;
+  transform: translateX(10px);
+}
+.bars ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.container p {
+  margin: 0;
+}
+
+#about #qoute {
+  background-color: #16191c;
+  max-width: fit-content;
+}
+.justInfo {
+  display: flex;
   justify-content: space-around;
   color: lightcyan;
   height: max-content;
   padding-bottom: 10px;
   /* From https://css.glass */
-background:#16191c;
-border-radius: 8px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(0.9px);
--webkit-backdrop-filter: blur(0.9px);
-border: 1px solid rgba(255, 255, 255, 0.36);
-padding-top: 10px;
+  background: #16191c;
+  border-radius: 8px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0.9px);
+  -webkit-backdrop-filter: blur(0.9px);
+  border: 1px solid rgba(255, 255, 255, 0.36);
+  padding-top: 10px;
+}
+.justInfo h3 {
+  display: flex;
+  flex-direction: column;
+  align-items: first baseline;
+  transition: 0.5s ease;
+  font-family: "Poppins", sans-serif;
+}
+.justInfo h3:hover {
+  transform: translateY(-5px);
+  color: blueviolet;
+}
+@media only screen and (max-width: 768px) {
+  #hero .hero {
+    flex-direction: column-reverse;
+    padding-top: 10rem;
+    justify-content: center;
   }
-  .justInfo h3{
-    display: flex;
+  #hero .image img {
+    max-width: 320px;
+    animation: none;
+  }
+  #hero .informations h3 {
+    font-size: 30px;
+  }
+
+  #hero .informations .subtext {
+    max-width: fit-content;
+  }
+  #about {
+    margin-top: 40%;
+    border-top: 1px solid lightcyan;
+  }
+  .socials {
+    margin-left: 20%;
+  }
+  #about .subtext {
+    text-align: justify;
+  }
+  footer {
+    font-size: 10px;
+    padding-right: 10%;
+  }
+  #hero .subtext {
+    text-align: justify;
+  }
+  .justInfo h3 {
+    flex-direction: row;
+    text-align: center;
+  }
+  .justInfo {
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
     flex-direction: column;
-    align-items: first baseline;
-    transition: 0.5s ease;
-    font-family: "Poppins", sans-serif;
   }
-  .justInfo h3:hover{
-    transform: translateY(-5px);
-    color: cyan;
-  }
-  @media only screen and (max-width: 768px) {
-   
-    #hero .hero{
-
-        flex-direction: column-reverse;
-        padding-top: 10rem;
-        justify-content: center;
-    }
-    #hero .image img{
-        max-width: 320px;
-        animation: none;
-    }
-    #hero .informations h3{
-        font-size: 30px;
-    }
-    
-    #hero .informations .subtext{
-        max-width: fit-content;
-    }
-    #about{
-        margin-top: 40%;
-        border-top: 1px solid lightcyan;
-        }
-        .socials{
-            margin-left: 20%;
-        }
-        #about .subtext{
-            text-align: justify;
-        }
-        footer{
-            font-size: 10px;
-            padding-right: 10%;
-        }
-        #hero .subtext{
-            text-align: justify;
-        }
-  }
-
-  
+}
