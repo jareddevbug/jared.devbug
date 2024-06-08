@@ -1,0 +1,39 @@
+#main-container {
+  height: max-content;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+.terminal {
+  width: 80%;
+  height: 70vh;
+  background-color: black;
+  border-radius: 10px;
+}
+.terminal-header {
+  background-color: #1a1a1a;
+  width: 100%;
+  height: 7%;
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.terminal-header .circle {
+  background-color: antiquewhite;
+  width: 2%;
+  height: 50%;
+  border-radius: 50%;
+  margin-left: 1%;
+}
+.terminal-header .circle:nth-child(1) {
+  background-color: red;
+}
+.terminal-header .circle:nth-child(2) {
+  background-color: orange;
+}
+.terminal-header .circle:nth-child(3) {
+  background-color: green;
+}
